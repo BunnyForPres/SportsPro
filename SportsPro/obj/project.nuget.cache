@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "esccVzsEWSY=",
+  "dgSpecHash": "2jNFzbPgguE=",
   "success": true,
-  "projectFilePath": "c:\\Users\\bunny\\OneDrive\\Desktop\\case_study_start_WINDOWS\\case_study_start\\SportsPro\\SportsPro\\SportsPro.csproj",
+  "projectFilePath": "C:\\Users\\bunny\\OneDrive\\Desktop\\case_study_start_WINDOWS\\case_study_start\\SportsPro\\SportsPro\\SportsPro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bunny\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\bunny\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
