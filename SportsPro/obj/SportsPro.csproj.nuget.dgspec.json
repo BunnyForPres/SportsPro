@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bunny\\OneDrive\\Desktop\\case_study_start_WINDOWS\\case_study_start\\SportsPro\\SportsPro\\SportsPro.csproj": {}
+    "c:\\Users\\bunny\\OneDrive\\Desktop\\case_study_start_WINDOWS\\case_study_start\\SportsPro\\SportsPro\\SportsPro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bunny\\OneDrive\\Desktop\\case_study_start_WINDOWS\\case_study_start\\SportsPro\\SportsPro\\SportsPro.csproj": {
+    "c:\\Users\\bunny\\OneDrive\\Desktop\\case_study_start_WINDOWS\\case_study_start\\SportsPro\\SportsPro\\SportsPro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bunny\\OneDrive\\Desktop\\case_study_start_WINDOWS\\case_study_start\\SportsPro\\SportsPro\\SportsPro.csproj",
+        "projectUniqueName": "c:\\Users\\bunny\\OneDrive\\Desktop\\case_study_start_WINDOWS\\case_study_start\\SportsPro\\SportsPro\\SportsPro.csproj",
         "projectName": "SportsPro",
-        "projectPath": "C:\\Users\\bunny\\OneDrive\\Desktop\\case_study_start_WINDOWS\\case_study_start\\SportsPro\\SportsPro\\SportsPro.csproj",
+        "projectPath": "c:\\Users\\bunny\\OneDrive\\Desktop\\case_study_start_WINDOWS\\case_study_start\\SportsPro\\SportsPro\\SportsPro.csproj",
         "packagesPath": "C:\\Users\\bunny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bunny\\OneDrive\\Desktop\\case_study_start_WINDOWS\\case_study_start\\SportsPro\\SportsPro\\obj\\",
+        "outputPath": "c:\\Users\\bunny\\OneDrive\\Desktop\\case_study_start_WINDOWS\\case_study_start\\SportsPro\\SportsPro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bunny\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -58,7 +58,11 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [

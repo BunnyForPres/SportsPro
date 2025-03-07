@@ -15,8 +15,8 @@ namespace SportsPro.Models
         public DbSet<Incident> Incidents { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Product>().HasData(
+        { /*
+             modelBuilder.Entity<Product>().HasData(
                 new Product
                 {
                     ProductID = 1,
@@ -303,7 +303,7 @@ namespace SportsPro.Models
                     DateOpened = DateTime.Parse("2020-01-10"),
                     DateClosed = null
                 }
-            );
+            );*/
         }
     }
 }

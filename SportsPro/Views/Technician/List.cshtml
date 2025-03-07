@@ -1,0 +1,68 @@
+@model IEnumerable<SportsPro.Models.Technician>
+
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Technicians</title>
+</head>
+<body>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TechnicianID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+    @if (item.TechnicianID != -1) { //keeps 'no tech' code from showing in list
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TechnicianID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TechnicianID"><button class="btn btn-primary">Edit</button></a>
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.TechnicianID"><button class="btn btn-primary">Details</button></a>
+            </td>
+            <td>
+                <a asp-action="Delete" asp-route-id="@item.TechnicianID"><button class="btn btn-danger">Delete</button></a>
+            </td>
+        </tr>
+        }
+}
+    </tbody>
+</table>
+
+    <a asp-action="Create"><button class="btn btn-primary">Add Technician</button></a>
+
+</body>
+</html>
